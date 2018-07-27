@@ -48,7 +48,6 @@ static tmedia_codec_t* codec = tsk_null;
 @synthesize buttonResume;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-    
 	// initialize media library
 	tdav_init();
 	// query for audio and video consumer and producer
@@ -62,7 +61,9 @@ static tmedia_codec_t* codec = tsk_null;
 	if(!(codec = tmedia_codec_create(kFakeCodecFormat))){
 		TSK_DEBUG_ERROR("Failed to create codec with format=%s", kFakeCodecFormat);
 	}
-    
+    window.rootViewController = [[UIViewController alloc] init];
+    window.rootViewController.view.userInteractionEnabled = NO;
+
     [window makeKeyAndVisible];
 }
 
