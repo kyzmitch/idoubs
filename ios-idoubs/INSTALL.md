@@ -13,6 +13,11 @@ Disable bitcode in all projects
 ### ld: library not found for -lcrt1.3.1.o
 Set IPHONEOS_DEPLOYMENT_TARGET to iOS 10.0 for all project files
 
+## testAudioCall
+
+### Undefined symbols for architecture i386: "_OBJC_CLASS_$_CAEAGLLayer", referenced from
+Need to add OpenGLES and QuartzCode frameworks to target
+
 # How to fix runtime errors
 
 ### *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Application windows are expected to have a root view controller at the end of application launch'

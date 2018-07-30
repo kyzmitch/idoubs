@@ -1056,6 +1056,14 @@
 		15A6AE5B1B40744000E02519 /* NgnVideoConsumer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15A6AE5A1B40744000E02519 /* NgnVideoConsumer.mm */; };
 		15A6AE5D1B40D36900E02519 /* iOSVideoProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15A6AE5C1B40D36900E02519 /* iOSVideoProducer.h */; };
 		15A6AE611B40D3C300E02519 /* iOSVideoProducer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15A6AE601B40D3C300E02519 /* iOSVideoProducer.mm */; };
+		60617E90210F38B400E4EAA3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60617E8F210F38B300E4EAA3 /* OpenGLES.framework */; };
+		60617E92210F38E100E4EAA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60617E91210F38E100E4EAA3 /* QuartzCore.framework */; };
+		60617E93210F399700E4EAA3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60617E8F210F38B300E4EAA3 /* OpenGLES.framework */; };
+		60617E94210F39E600E4EAA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60617E91210F38E100E4EAA3 /* QuartzCore.framework */; };
+		60617E95210F3A2400E4EAA3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60617E8F210F38B300E4EAA3 /* OpenGLES.framework */; };
+		60617E96210F3A2A00E4EAA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60617E91210F38E100E4EAA3 /* QuartzCore.framework */; };
+		60617E97210F3E1900E4EAA3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60617E8F210F38B300E4EAA3 /* OpenGLES.framework */; };
+		60617E98210F3E1F00E4EAA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60617E91210F38E100E4EAA3 /* QuartzCore.framework */; };
 		AA747D9F0F9514B9006C5449 /* ios_ngn_stack_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ios_ngn_stack_Prefix.pch */; };
 		EC1041F717707C51008E8E76 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1041F617707C51008E8E76 /* Security.framework */; };
 		EC1041F817707C72008E8E76 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1041F617707C51008E8E76 /* Security.framework */; };
@@ -3449,6 +3457,8 @@
 		15A6AE5A1B40744000E02519 /* NgnVideoConsumer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NgnVideoConsumer.mm; sourceTree = "<group>"; };
 		15A6AE5C1B40D36900E02519 /* iOSVideoProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSVideoProducer.h; sourceTree = "<group>"; };
 		15A6AE601B40D3C300E02519 /* iOSVideoProducer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iOSVideoProducer.mm; sourceTree = "<group>"; };
+		60617E8F210F38B300E4EAA3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		60617E91210F38E100E4EAA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AA747D9E0F9514B9006C5449 /* ios_ngn_stack_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios_ngn_stack_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libios_ngn_stack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios_ngn_stack.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3669,6 +3679,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60617E96210F3A2A00E4EAA3 /* QuartzCore.framework in Frameworks */,
+				60617E95210F3A2400E4EAA3 /* OpenGLES.framework in Frameworks */,
 				EC61313719103A7E003C7245 /* libtinyBFCP.a in Frameworks */,
 				EC1041FB17707C9A008E8E76 /* Security.framework in Frameworks */,
 				EC7D39861379ED9C0052CE45 /* libios_ngn_stack.a in Frameworks */,
@@ -3732,6 +3744,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60617E94210F39E600E4EAA3 /* QuartzCore.framework in Frameworks */,
+				60617E93210F399700E4EAA3 /* OpenGLES.framework in Frameworks */,
 				EC61313319103A5E003C7245 /* libtinyBFCP.a in Frameworks */,
 				EC1041F717707C51008E8E76 /* Security.framework in Frameworks */,
 				EC83BC2A1369C55000DD3355 /* libios_ngn_stack.a in Frameworks */,
@@ -3766,6 +3780,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60617E92210F38E100E4EAA3 /* QuartzCore.framework in Frameworks */,
+				60617E90210F38B400E4EAA3 /* OpenGLES.framework in Frameworks */,
 				EC61313419103A64003C7245 /* libtinyBFCP.a in Frameworks */,
 				EC1041F817707C72008E8E76 /* Security.framework in Frameworks */,
 				EC83BC631369C64800DD3355 /* libios_ngn_stack.a in Frameworks */,
@@ -3932,6 +3948,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60617E98210F3E1F00E4EAA3 /* QuartzCore.framework in Frameworks */,
+				60617E97210F3E1900E4EAA3 /* OpenGLES.framework in Frameworks */,
 				EC61313819103A85003C7245 /* libtinyBFCP.a in Frameworks */,
 				EC1041FC17707CA8008E8E76 /* Security.framework in Frameworks */,
 				ECFDFB2B13A968C900D4C62A /* libios_ngn_stack.a in Frameworks */,
@@ -4026,6 +4044,8 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60617E91210F38E100E4EAA3 /* QuartzCore.framework */,
+				60617E8F210F38B300E4EAA3 /* OpenGLES.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 				EC6130EA1910368E003C7245 /* XCTest.framework */,
 				EC6130ED1910368E003C7245 /* UIKit.framework */,
