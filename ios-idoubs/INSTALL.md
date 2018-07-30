@@ -13,10 +13,11 @@ Disable bitcode in all projects
 ### ld: library not found for -lcrt1.3.1.o
 Set IPHONEOS_DEPLOYMENT_TARGET to iOS 10.0 for all project files
 
-## testAudioCall
-
 ### Undefined symbols for architecture i386: "_OBJC_CLASS_$_CAEAGLLayer", referenced from
 Need to add OpenGLES and QuartzCode frameworks to target
+
+### NSContactsUsageDescription  missed
+Add it to Info.plist for testRegistration target
 
 # How to fix runtime errors
 

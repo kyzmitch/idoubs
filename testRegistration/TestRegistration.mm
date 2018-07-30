@@ -121,7 +121,10 @@ static BOOL kEnableEarlyIMS = TRUE;
 	[mConfigurationService setStringWithKey: NETWORK_PCSCF_HOST andValue:kProxyHost];
 	[mConfigurationService setIntWithKey: NETWORK_PCSCF_PORT andValue: kProxyPort];
 	[mConfigurationService setBoolWithKey: NETWORK_USE_EARLY_IMS andValue: kEnableEarlyIMS];
-	
+
+    window.rootViewController = [[UIViewController alloc] init];
+    window.rootViewController.view.userInteractionEnabled = NO;
+
     // Override point for customization after application launch
     [window makeKeyAndVisible];
 	
