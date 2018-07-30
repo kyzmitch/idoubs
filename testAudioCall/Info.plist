@@ -33,5 +33,7 @@
 	</array>
 	<key>UIRequiresPersistentWiFi</key>
 	<true/>
+	<key>NSContactsUsageDescription</key>
+	<string>Contacts needed for calls</string>
 </dict>
 </plist>
