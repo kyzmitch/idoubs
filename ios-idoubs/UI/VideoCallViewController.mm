@@ -507,7 +507,7 @@
 			[videoSession setRemoteVideoDisplay:self.glViewVideoRemote];
 			[videoSession setLocalVideoDisplay:self.viewLocalVideo];
 		}
-		labelRemoteParty.text = (videoSession.historyEvent) ? videoSession.historyEvent.remotePartyDisplayName :[NgnStringUtils nullValue];
+		labelRemoteParty.text = (videoSession.historyEvent) ? videoSession.historyEvent.remotePartyDisplayName : (NSString*)[NgnStringUtils nullValue];
 	}
 	[self updateViewAndState];
 	[self updateVideoOrientation];

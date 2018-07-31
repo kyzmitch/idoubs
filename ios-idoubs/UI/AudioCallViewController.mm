@@ -360,7 +360,7 @@
 	[audioSession release];
 	audioSession = [[NgnAVSession getSessionWithId: self.sessionId] retain];
 	if(audioSession){
-		labelRemoteParty.text = (audioSession.historyEvent) ? audioSession.historyEvent.remotePartyDisplayName : [NgnStringUtils nullValue];
+		labelRemoteParty.text = (audioSession.historyEvent) ? audioSession.historyEvent.remotePartyDisplayName : (NSString*)[NgnStringUtils nullValue];
 		[[NgnEngine sharedInstance].soundService setSpeakerEnabled:[audioSession isSpeakerEnabled]];
 		[self updateViewAndState];
 	}

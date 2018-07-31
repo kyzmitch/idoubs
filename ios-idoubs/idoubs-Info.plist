@@ -31,6 +31,8 @@
 		<string>audio</string>
 		<string>voip</string>
 	</array>
+	<key>NSContactsUsageDescription</key>
+	<string>Contacts needed for telephone numbers</string>
 	<key>UIRequiresPersistentWiFi</key>
 	<true/>
 </dict>
