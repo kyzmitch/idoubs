@@ -22,7 +22,7 @@
 
 #import "events/NgnEventArgs.h"
 
-#define kNgnRegistrationEventArgs_Name @"NgnRegistrationEventArgs_Name"
+extern NSString * _Nonnull const kNgnRegistrationEventArgs_Name;
 
 #define kExtraRegistrationEventArgsRetryAfter @"retry-after"
 

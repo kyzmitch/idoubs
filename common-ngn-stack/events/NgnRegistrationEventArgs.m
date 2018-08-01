@@ -20,6 +20,8 @@
  */
 #import "NgnRegistrationEventArgs.h"
 
+NSString * const kNgnRegistrationEventArgs_Name = @"NgnRegistrationEventArgs_Name";
+
 @implementation NgnRegistrationEventArgs
 
 @synthesize sessionId;
