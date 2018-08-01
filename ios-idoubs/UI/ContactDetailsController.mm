@@ -25,6 +25,8 @@
 
 #import "idoubs2AppDelegate.h"
 
+#import "NgnFavoriteMediaEntry.h"
+
 #define kTagActionSheetTextMessage				1
 #define kTagActionSheetVideoCall				2
 #define kTagActionSheetAddToFavorites			3

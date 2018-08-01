@@ -26,18 +26,6 @@
 #import "media/NgnMediaType.h"
 #import "model/NgnContact.h"
 
-typedef struct FavoriteMediaEntry_s {
-	NSString* description;
-	NgnMediaType_t mediaType;
-}
-FavoriteMediaEntry_t;
-
-static const FavoriteMediaEntry_t kFavoriteMediaEntries[3] = { 
-	{ @"Voice Call", MediaType_Audio},
-	{ @"Video Call", MediaType_AudioVideo}, 
-	{ @"Text Message", MediaType_SMS}, 
-};
-
 @interface NgnFavorite : NSObject {
 	long long id;
 	NSString *number;

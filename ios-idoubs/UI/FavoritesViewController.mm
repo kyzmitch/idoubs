@@ -25,6 +25,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
+#import "NgnFavoriteMediaEntry.h"
 //
 //	Private
 //
