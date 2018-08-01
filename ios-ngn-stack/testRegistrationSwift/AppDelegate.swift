@@ -13,15 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    @objc private func onRegistrationEvent(_ notificaiton: Notification) {
-
-    }
+    var mEngine: NgnEngine?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-
-        // add observers
-        let selector = #selector(onRegistrationEvent(_:))
-        NotificationCenter.default.addObserver(self, selector: selector, name: NSNotification.Name(rawValue: kNgnRegistrationEventArgs_Name), object: nil)
 
 
         return true

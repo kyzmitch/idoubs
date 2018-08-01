@@ -6,3 +6,6 @@
 
 ### Add libios_ngn_stack.a to target's Linked frameworks list.
 
+### XCode can't find some header files which are in angle brekets 
+'services/INgnBaseService.h' file not found with <angled> include; use "quotes" instead
+Set `System Header search paths` to $(PROJECT_DIR)/../common-ngn-stack
