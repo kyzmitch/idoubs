@@ -30,6 +30,11 @@
 #import "NgnStorageService.h"
 #import "NgnVideoConsumer.h"
 
+#import "tnet.h"
+#import "thttp.h"
+#import "tdav.h"
+#import "tinymedia.h"
+
 #if TARGET_OS_IPHONE
 #   import "iOSVideoProducer.h"
 #elif TARGET_OS_MAC

@@ -9956,7 +9956,7 @@
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../common-ngn-stack";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../common-ngn-stack";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../doubango/** $(PROJECT_DIR)/../common-ngn-stack";
 			};
 			name = Debug;
 		};
@@ -10019,7 +10019,7 @@
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../common-ngn-stack";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../common-ngn-stack";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../doubango/** $(PROJECT_DIR)/../common-ngn-stack";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
