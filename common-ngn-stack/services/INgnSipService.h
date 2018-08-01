@@ -21,8 +21,9 @@
 #import <Foundation/Foundation.h>
 
 #import "services/INgnBaseService.h"
-#import "sip/NgnSipSession.h"
-#import "sip/NgnSipStack.h"
+#import "sip/NgnSipSessionStates.h"
+
+@class NgnSipStack;
 
 @protocol INgnSipService <INgnBaseService>
 -(NSString*)getDefaultIdentity;

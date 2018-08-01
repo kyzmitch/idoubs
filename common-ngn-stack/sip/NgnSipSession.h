@@ -23,14 +23,7 @@
 
 #import "SipSession.h"
 
-typedef enum ConnectionState_e{
-	CONN_STATE_NONE,
-	CONN_STATE_CONNECTING,
-	CONN_STATE_CONNECTED,
-	CONN_STATE_TERMINATING,
-	CONN_STATE_TERMINATED,
-}
-ConnectionState_t;
+#import "sip/NgnSipSessionStates.h"
 
 @interface NgnSipSession : NSObject {
 	NgnSipStack* mSipStack;

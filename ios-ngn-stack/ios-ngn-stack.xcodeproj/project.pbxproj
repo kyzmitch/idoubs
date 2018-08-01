@@ -3474,6 +3474,7 @@
 		60617F16211193EB00E4EAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60617F1E21119B8000E4EAA3 /* testRegistrationSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testRegistrationSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		60617F2C2111A4DF00E4EAA3 /* INSTALL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = INSTALL.md; sourceTree = "<group>"; };
+		60617F2D2111C60300E4EAA3 /* NgnSipSessionStates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NgnSipSessionStates.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ios_ngn_stack_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios_ngn_stack_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libios_ngn_stack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios_ngn_stack.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -6777,6 +6778,7 @@
 				ECE7E90C14284CAC00466331 /* NgnRegistrationSession.mm */,
 				ECE7E90D14284CAC00466331 /* NgnSipPreferences.h */,
 				ECE7E90E14284CAC00466331 /* NgnSipPreferences.mm */,
+				60617F2D2111C60300E4EAA3 /* NgnSipSessionStates.h */,
 				ECE7E90F14284CAC00466331 /* NgnSipSession.h */,
 				ECE7E91014284CAC00466331 /* NgnSipSession.mm */,
 				ECE7E91114284CAC00466331 /* NgnSipStack.h */,

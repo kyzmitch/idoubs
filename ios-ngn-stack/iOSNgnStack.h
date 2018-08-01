@@ -43,6 +43,7 @@
 #import "events/NgnContactEventArgs.h"
 #import "events/NgnNetworkEventArgs.h"
 
+#import "sip/NgnSipSessionStates.h"
 #import "sip/NgnRegistrationSession.h"
 #import "sip/NgnAVSession.h"
 #import "sip/NgnMessagingSession.h"
