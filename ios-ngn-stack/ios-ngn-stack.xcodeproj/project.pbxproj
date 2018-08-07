@@ -1090,6 +1090,7 @@
 		606E83362119BB0800B95F7C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90C9C013B3A530000386CA /* SystemConfiguration.framework */; };
 		606E83372119BB8400B95F7C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC81BE9C136C8FE60068BCB4 /* AudioToolbox.framework */; };
 		606E83382119BBB100B95F7C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC81BE71136C8EF80068BCB4 /* AVFoundation.framework */; };
+		606E833A2119C04900B95F7C /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 606E83392119C04900B95F7C /* libresolv.tbd */; };
 		AA747D9F0F9514B9006C5449 /* ios_ngn_stack_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ios_ngn_stack_Prefix.pch */; };
 		EC1041F717707C51008E8E76 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1041F617707C51008E8E76 /* Security.framework */; };
 		EC1041F817707C72008E8E76 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1041F617707C51008E8E76 /* Security.framework */; };
@@ -3496,6 +3497,7 @@
 		60617F2C2111A4DF00E4EAA3 /* INSTALL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = INSTALL.md; sourceTree = "<group>"; };
 		60617F2D2111C60300E4EAA3 /* NgnSipSessionStates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NgnSipSessionStates.h; sourceTree = "<group>"; };
 		60617F2E2111CFB300E4EAA3 /* NgnFavoriteMediaEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NgnFavoriteMediaEntry.h; sourceTree = "<group>"; };
+		606E83392119C04900B95F7C /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		AA747D9E0F9514B9006C5449 /* ios_ngn_stack_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios_ngn_stack_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libios_ngn_stack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios_ngn_stack.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3702,6 +3704,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606E833A2119C04900B95F7C /* libresolv.tbd in Frameworks */,
 				606E83382119BBB100B95F7C /* AVFoundation.framework in Frameworks */,
 				606E83372119BB8400B95F7C /* AudioToolbox.framework in Frameworks */,
 				606E83362119BB0800B95F7C /* SystemConfiguration.framework in Frameworks */,
@@ -4110,6 +4113,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				606E83392119C04900B95F7C /* libresolv.tbd */,
 				60617E91210F38E100E4EAA3 /* QuartzCore.framework */,
 				60617E8F210F38B300E4EAA3 /* OpenGLES.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
@@ -10011,6 +10015,7 @@
 					"-lg729b",
 					"-lspeex",
 					"-lspeexdsp",
+					"-lstdc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kyzmitch.testRegistrationSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -10098,6 +10103,7 @@
 					"-lg729b",
 					"-lspeex",
 					"-lspeexdsp",
+					"-lstdc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kyzmitch.testRegistrationSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
