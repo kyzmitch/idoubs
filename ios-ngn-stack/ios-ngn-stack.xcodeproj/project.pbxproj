@@ -1070,6 +1070,26 @@
 		60617F12211193EB00E4EAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60617F11211193EB00E4EAA3 /* Assets.xcassets */; };
 		60617F15211193EB00E4EAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60617F13211193EB00E4EAA3 /* LaunchScreen.storyboard */; };
 		60617F2B2111A4BE00E4EAA3 /* libios_ngn_stack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libios_ngn_stack.a */; };
+		606E83252119BA3C00B95F7C /* libtinyBFCP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6130DC1910368D003C7245 /* libtinyBFCP.a */; };
+		606E83262119BA3C00B95F7C /* libtinyDAV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD3171135E7DA100E6A9A3 /* libtinyDAV.a */; };
+		606E83272119BA3C00B95F7C /* libtinyHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD2851135E7ABA00E6A9A3 /* libtinyHTTP.a */; };
+		606E83282119BA3C00B95F7C /* libtinyIPSec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD2767135E79B800E6A9A3 /* libtinyIPSec.a */; };
+		606E83292119BA3C00B95F7C /* libtinyMEDIA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD2CDE135E7C7D00E6A9A3 /* libtinyMEDIA.a */; };
+		606E832A2119BA3C00B95F7C /* libtinyMSRP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD279B135E7A0200E6A9A3 /* libtinyMSRP.a */; };
+		606E832B2119BA3C00B95F7C /* libtinyNET.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD24ED135D58EB00E6A9A3 /* libtinyNET.a */; };
+		606E832C2119BA3C00B95F7C /* libtinyRTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD2693135D5DDD00E6A9A3 /* libtinyRTP.a */; };
+		606E832D2119BA3C00B95F7C /* libtinySAK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD2426135D584100E6A9A3 /* libtinySAK.a */; };
+		606E832E2119BA3C00B95F7C /* libtinySDP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD25F7135D5CD100E6A9A3 /* libtinySDP.a */; };
+		606E832F2119BA3C00B95F7C /* libtinySIGCOMP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD2D5A135E7CD800E6A9A3 /* libtinySIGCOMP.a */; };
+		606E83302119BA3C00B95F7C /* libtinySIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD2E9A135E7D6D00E6A9A3 /* libtinySIP.a */; };
+		606E83312119BA3C00B95F7C /* libtinySMS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD2E02135E7D1000E6A9A3 /* libtinySMS.a */; };
+		606E83322119BA3C00B95F7C /* libtinyWRAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD32AE135E821000E6A9A3 /* libtinyWRAP.a */; };
+		606E83332119BA3C00B95F7C /* libtinyXCAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFD2E5B135E7D3600E6A9A3 /* libtinyXCAP.a */; };
+		606E83342119BAE700B95F7C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC83BC3B1369C57E00DD3355 /* CFNetwork.framework */; };
+		606E83352119BAEE00B95F7C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1041F617707C51008E8E76 /* Security.framework */; };
+		606E83362119BB0800B95F7C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90C9C013B3A530000386CA /* SystemConfiguration.framework */; };
+		606E83372119BB8400B95F7C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC81BE9C136C8FE60068BCB4 /* AudioToolbox.framework */; };
+		606E83382119BBB100B95F7C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC81BE71136C8EF80068BCB4 /* AVFoundation.framework */; };
 		AA747D9F0F9514B9006C5449 /* ios_ngn_stack_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ios_ngn_stack_Prefix.pch */; };
 		EC1041F717707C51008E8E76 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1041F617707C51008E8E76 /* Security.framework */; };
 		EC1041F817707C72008E8E76 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1041F617707C51008E8E76 /* Security.framework */; };
@@ -3682,6 +3702,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606E83382119BBB100B95F7C /* AVFoundation.framework in Frameworks */,
+				606E83372119BB8400B95F7C /* AudioToolbox.framework in Frameworks */,
+				606E83362119BB0800B95F7C /* SystemConfiguration.framework in Frameworks */,
+				606E83352119BAEE00B95F7C /* Security.framework in Frameworks */,
+				606E83342119BAE700B95F7C /* CFNetwork.framework in Frameworks */,
+				606E83252119BA3C00B95F7C /* libtinyBFCP.a in Frameworks */,
+				606E83262119BA3C00B95F7C /* libtinyDAV.a in Frameworks */,
+				606E83272119BA3C00B95F7C /* libtinyHTTP.a in Frameworks */,
+				606E83282119BA3C00B95F7C /* libtinyIPSec.a in Frameworks */,
+				606E83292119BA3C00B95F7C /* libtinyMEDIA.a in Frameworks */,
+				606E832A2119BA3C00B95F7C /* libtinyMSRP.a in Frameworks */,
+				606E832B2119BA3C00B95F7C /* libtinyNET.a in Frameworks */,
+				606E832C2119BA3C00B95F7C /* libtinyRTP.a in Frameworks */,
+				606E832D2119BA3C00B95F7C /* libtinySAK.a in Frameworks */,
+				606E832E2119BA3C00B95F7C /* libtinySDP.a in Frameworks */,
+				606E832F2119BA3C00B95F7C /* libtinySIGCOMP.a in Frameworks */,
+				606E83302119BA3C00B95F7C /* libtinySIP.a in Frameworks */,
+				606E83312119BA3C00B95F7C /* libtinySMS.a in Frameworks */,
+				606E83322119BA3C00B95F7C /* libtinyWRAP.a in Frameworks */,
+				606E83332119BA3C00B95F7C /* libtinyXCAP.a in Frameworks */,
 				60617F2B2111A4BE00E4EAA3 /* libios_ngn_stack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -9944,11 +9984,34 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../common-ngn-stack",
+					"../ios-ngn-stack",
+					$DOUBANGO_INCLUDES,
+				);
 				INFOPLIST_FILE = testRegistrationSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lsrtp",
+					"-lssl",
+					"-lcrypto",
+					"-lyuv",
+					"-lvpx",
+					"-lx264",
+					"-lopenh264",
+					"-lswscale",
+					"-lavutil",
+					"-lavcodec",
+					"-lopus",
+					"-lgsm",
+					"-lg729b",
+					"-lspeex",
+					"-lspeexdsp",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kyzmitch.testRegistrationSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -10009,10 +10072,33 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../common-ngn-stack",
+					"../ios-ngn-stack",
+					$DOUBANGO_INCLUDES,
+				);
 				INFOPLIST_FILE = testRegistrationSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-lsrtp",
+					"-lssl",
+					"-lcrypto",
+					"-lyuv",
+					"-lvpx",
+					"-lx264",
+					"-lopenh264",
+					"-lswscale",
+					"-lavutil",
+					"-lavcodec",
+					"-lopus",
+					"-lgsm",
+					"-lg729b",
+					"-lspeex",
+					"-lspeexdsp",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kyzmitch.testRegistrationSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "testRegistrationSwift/testRegistrationSwift-Bridging-Header.h";
